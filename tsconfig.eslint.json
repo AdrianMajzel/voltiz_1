@@ -1,0 +1,14 @@
+{
+    "include": [
+        "*/*.ts",
+        "*/*.tsx",
+        "*/*.jsx",
+        "*/*.js",
+        "*/*.json",
+        "*/*.mjs"
+    ],
+    "exclude": [
+        "**/node_modules",
+        "node_modules",
+    ]
+}
