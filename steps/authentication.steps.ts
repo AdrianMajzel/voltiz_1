@@ -29,8 +29,8 @@ When('User enters {string} credentials to login form', async function ({ page },
             break;
         }
         case "valid federation": {
-            await page.fill('[id= "input_nation"]', process.env.VALID_NAME_FED || '');
-            await page.fill('[id= "input_password"]', Buffer.from(process.env.VALID_PASSWORD_FED || '', 'base64').toString('utf-8'));
+            await page.fill('[id="input_nation"]', process.env.VALID_NAME_FED || '');
+            await page.fill('[id="input_password"]', Buffer.from(process.env.VALID_PASSWORD_FED || '', 'base64').toString('utf-8'));
             break;
         }
         case "valid admin": {
